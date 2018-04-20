@@ -28,4 +28,5 @@ public class CursoRest {
     public ResponseEntity findById(@PathVariable("id") Long id) {
         return new ResponseEntity((cursoRepository.findById(id)), HttpStatus.OK);
     }
+    
 }
